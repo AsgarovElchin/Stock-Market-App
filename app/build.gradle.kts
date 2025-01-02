@@ -59,6 +59,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // SwipeRefresh
+    implementation(libs.accompanist.swiperefresh)
+
     // OpenCSV
     implementation (libs.opencsv.opencsv)
 

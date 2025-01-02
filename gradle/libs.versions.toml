@@ -1,4 +1,5 @@
 [versions]
+accompanistSwiperefresh = "0.24.13-rc"
 agp = "8.7.3"
 core = "1.1.2-beta"
 kotlin = "2.0.0"
@@ -24,15 +25,18 @@ retrofit = "2.9.0"
 roomKtx = "2.6.1"
 roomRuntimeVersion = "2.6.1"
 roomCompiler = "2.6.1"
+swiperefreshlayoutVersion = "1.1.0"
 
 
 
 
 
 [libraries]
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanistSwiperefresh" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayoutVersion" }
 core = { module = "io.github.raamcosta.compose-destinations:core", version.ref = "core" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
